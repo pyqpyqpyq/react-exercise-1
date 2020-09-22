@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.scss';
-import { Avatar } from './components/Avatar';
+import  { Avatar }from './components/Avatar';
+import { Title } from './components/Title';
 import avatarSrc from './assets/avatar.jpg';
 
-// const title = 'Hello,';
-// const description = 'my name is kamil 24yo and this is my resume/cv';
+const title = 'Hello,';
+const description = 'my name is kamil 24yo and this is my resume/cv';
 
 // const educations = [
 //   {
@@ -46,6 +47,7 @@ class App extends Component {
     return (
       <main className="app">
         <Avatar src={avatarSrc} />
+        <Title title={title} description={description} />
       </main>
     );
   }
