@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.education {
+  display: flex;
+  align-items: flex-start;
+
+  margin: $base-margin 0;
+}
+
+.education .year {
+  width: 100px;
+
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.education .detail {
+  flex: 1;
+
+  padding: $base-padding;
+
+  background-color: $gray;
+}
+
+.education .detail-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.education .detail-description {
+  margin-top: 10px;
+}
