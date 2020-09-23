@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
-import  { Avatar }from './components/Avatar';
+import { Avatar } from './components/Avatar';
 import { Title } from './components/Title';
 import avatarSrc from './assets/avatar.jpg';
 import { Divider } from './components/Divider';
