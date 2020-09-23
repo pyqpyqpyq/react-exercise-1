@@ -8,7 +8,7 @@ import React, { Fragment } from 'react';
 // export default About;
 
 const About = (props) => {
-  console.log(props);
+  // console.log(props);
   return (
     <Fragment>
       <h1> This is About Page</h1>

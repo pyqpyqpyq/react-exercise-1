@@ -12,15 +12,7 @@ class Myform extends Component {
     return (
       <BrowserRouter>
         <h1>App page</h1>
-        <main className="self_intro">
-          <Header />
-          {/* <Link to="/" className="nav-link">
-            Home
-          </Link>
-          <Link to="/about" className="nav-link">
-            about
-          </Link> */}
-        </main>
+        <Header />
         <Switch>
           <Route exact path="/about" component={About} />
           <Route exact path="/products" component={Products} />
